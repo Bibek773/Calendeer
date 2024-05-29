@@ -997,6 +997,7 @@ td.w12:hover::after { content: "    २०८१ असोज १२ शनि�
 td.w13:hover::after { content: "   २०८१ असोज १३ आइतवार Sep 29, 2024 असोज कृष्ण द्वादशी द्वादशी श्राद्ध / मघा श्राद्ध/विश्व मुटु दिवस ( Dwadashi Shraddha / Magha Shraddha/World Heart Day )    "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; }
 td.w14:hover::after { content: "      २०८१ असोज १४ सोमवार Sep 30, 2024 असोज कृष्ण त्रयोदशी सोम प्रदोष व्रत/त्रयोदशी श्राद्ध ( Som Pradosh Vrata/Trayodashi Shraddha ) "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; }
 td.w15:hover::after { content: "    २०८१ असोज १५ मंगलवार Oct 01, 2024 असोज कृष्ण चतुर्दशी चतुर्दशी श्राद्ध/अन्तर्राष्ट्रिय ज्येष्ठ नागरिक दिवस ( Chaturdashi Shraddha/International Day of Older Persons )   "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; }
+
 td.w16:hover::after {
     content: "       "; 
     position: absolute;
