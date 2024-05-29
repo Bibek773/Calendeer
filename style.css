@@ -982,111 +982,21 @@ td.s1:hover::after { content: "     २०८१ साउन १ मंगल�
 td.v1:hover::after { content: "  २०८१ भदौ १ शनिवार Aug 17, 2024 साउन शुक्ल द्वादशी सिंह संक्रान्ति/शनि प्रदोष व्रत ( Singh Sankranti/Shani Pradosh Vrata )     "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.v2:hover::after { content: "     २०८१ भदौ २ आइतवार Aug 18, 2024 साउन शुक्ल त्रयोदशी  "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.v3:hover::after { content: "   २०८१ भदौ ३ सोमवार Aug 19, 2024 साउन शुक्ल पूर्णिमा जनै पूर्णिमा / रक्षा बन्धन/पूर्णिमा व्रत/ऋषितर्पणी/संस्कृत दिवस/विश्व फोटोग्राफी दिवस ( Janai Poornima/ Rakshya Bandhan/Poornima Vrata/Rishi Tarpani/Sanskrit Diwas/World Photography Day )    "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.v4:hover::after { content: "   २०८१ भदौ ४ मंगलवार Aug 20, 2024 भदौ कृष्ण प्रतिपदा गाईजात्रा / सापारु (नेवा समुदायलाई मात्र) ( Gaijatra / Saparu )    "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.v5:hover::after { content: "     २०८१ भदौ ५ बुधवार Aug 21, 2024 भदौ कृष्ण द्वितीया रोपाईं जात्रा ( Ropai Jatra )  "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.v6:hover::after { content: "    २०८१ भदौ ६ बिहिवार Aug 22, 2024 भदौ कृष्ण तृतिया   "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.v7:hover::after { content: "   २०८१ भदौ ७ शुक्रवार Aug 23, 2024 भदौ कृष्ण चतुर्थी "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.v8:hover::after { content: "    २०८१ भदौ ८ शनिवार Aug 24, 2024 भदौ कृष्ण पञ्चमी   "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.v9:hover::after { content: "    २०८१ भदौ ९ आइतवार Aug 25, 2024 भदौ कृष्ण षष्ठी राष्ट्रिय धर्मसभा दिवस/गौरा सप्तमी ( Rashtriya Dharmasabha Diwas/Gaura Saptami )   "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.v10:hover::after { content: "  २०८१ भदौ १० सोमवार Aug 26, 2024 भदौ कृष्ण अष्टमी श्रीकृष्ण जन्माष्टमी/गाैरा पर्व (सम्बन्धित समुदायलाई मात्र)/गोरखकाली पूजा ( Shree Krishna Janmashtami/Gaura Parva/Gorakhkali Puja ) "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.v11:hover::after { content: " २०८१ भदौ ११ मंगलवार Aug 27, 2024 भदौ कृष्ण नवमी      "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.v12:hover::after { content: "   २०८१ भदौ १२ बुधवार Aug 28, 2024 भदौ कृष्ण दशमी "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.v13:hover::after { content: "  २०८१ भदौ १३ बिहिवार Aug 29, 2024 भदौ कृष्ण एकादशी स्मार्तहरूको अजा एकादशी व्रत/विश्व आणविक परिक्षण विरुद्धको दिवस ( Ajaa Ekadashi Vrata (Smarta)/International Day Against Nuclear Tests )     "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.v14:hover::after { content: "  २०८१ भदौ १४ शुक्रवार Aug 30, 2024 भदौ कृष्ण द्वादशी वैश्णवहरूको अजा एकादशी व्रत/विश्व बेपत्ता विरुद्धको दिवस ( Ajaa Ekadashi Vrata (Vaisnav)/International Day of the Victims of Enforced Disappearances )     "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.v15:hover::after { content: "     २०८१ भदौ १५ शनिवार Aug 31, 2024 भदौ कृष्ण त्रयोदशी शनि प्रदोष व्रत ( Shani Pradosh Vrata )  "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.v16:hover::after { content: "     २०८१ भदौ १६ आइतवार Sep 01, 2024 भदौ कृष्ण चतुर्दशी  "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.v17:hover::after { content: "   २०८१ भदौ १७ सोमवार Sep 02, 2024 भदौ कृष्ण औंसी बुबाको मुख हेर्ने दिन/कुशे औंसी/ मोतीराम भट्ट जन्मजयन्ती/सोमबारे औंसी ( Father's Day/ Kunse Aunshi/ Motiram Bhatta Janma Jayanti/Sombare Aunshi )    "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.v18:hover::after { content: "    २०८१ भदौ १८ मंगलवार Sep 03, 2024 भदौ कृष्ण औंसी "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.v19:hover::after { content: "    २०८१ भदौ १९ बुधवार Sep 04, 2024 भदौ शुक्ल प्रतिपदा गुंला पर्व समाप्ति ( Gunla Parwa Samapti )   "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.v20:hover::after { content: "   २०८१ भदौ २० बिहिवार Sep 05, 2024 भदौ शुक्ल द्वितीया दर खाने दिन/मानव बेचबिखन विरुद्ध राष्ट्रिय दिवस ( Dar Khane Din/National Day against Trafficking in Persons )    "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.v21:hover::after { content: "   २०८१ भदौ २१ शुक्रवार Sep 06, 2024 भदौ शुक्ल तृतिया हरितालिका तीज (महिला कर्मचारीहरूलाई मात्र) ( Haritalika Teej )    "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.v22:hover::after { content: "   २०८१ भदौ २२ शनिवार Sep 07, 2024 भदौ शुक्ल चतुर्थी गणेश चतुर्थी/निजामती सेवा दिवस/राष्ट्रिय धर्मसभा दिवस ( Ganesh Chaturthi/Nijamati Sewa Diwas/Rashtriya Dharmasabha Diwas )    "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.v23:hover::after { content: "     २०८१ भदौ २३ आइतवार Sep 08, 2024 भदौ शुक्ल पञ्चमी ऋषिपञ्चमी व्रत/अन्तर्राष्ट्रिय साक्षरता दिवस / विश्व फिजियोथेरापी दिवस ( Rishi Panchami Vrata/International Literacy Day/ World Physiotherapy Day )  "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.v24:hover::after { content: "    २०८१ भदौ २४ सोमवार Sep 09, 2024 भदौ शुक्ल षष्ठी सूर्य षष्ठी ( Surya Sasti )   "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.v25:hover::after { content: "   २०८१ भदौ २५ मंगलवार Sep 10, 2024 भदौ शुक्ल सप्तमी महालक्ष्मी व्रतआरम्भ/विश्व आत्महत्या रोकथाम दिवस ( Mahalakshmi Vrata Aarambha/World Suicide Prevention Day )    "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.v26:hover::after { content: "   २०८१ भदौ २६ बुधवार Sep 11, 2024 भदौ शुक्ल अष्टमी बुधाष्टमी व्रत/गोरखकाली पूजा/राधा जन्मोत्सव ( Budhastami Vrata/Gorakhkali Puja/Radha Janmotsav )    "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.v27:hover::after { content: "   २०८१ भदौ २७ बिहिवार Sep 12, 2024 भदौ शुक्ल नवमी    "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.v28:hover::after { content: "    २०८१ भदौ २८ शुक्रवार Sep 13, 2024 भदौ शुक्ल दशमी विश्व सेप्सिस दिवस ( World Sepsis Day ) "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.v29:hover::after { content: "    २०८१ भदौ २९ शनिवार Sep 14, 2024 भदौ शुक्ल एकादशी हरिपरिवर्तिनी एकादशी व्रत/राष्ट्रिय बाल दिवस/प्राथमिक उपचार दिवस ( Haripariwartani Ekadashi Vrata/Rashtriya Bal Diwas/World First Aid Day )   "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.v30:hover::after { content: "     २०८१ भदौ ३० आइतवार Sep 15, 2024 भदौ शुक्ल द्वादशी प्रदोष व्रत/वामन द्वादशी व्रत ( Pradosh Vrata/Vaman Dwadashi Vrata )  "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.v31:hover::after { content: "  २०८१ भदौ ३१ सोमवार Sep 16, 2024 भदौ शुक्ल त्रयोदशी विश्व ओजोन तह बचाउ दिवस ( International Day For The Preservation Of The Ozone Layer )     "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; }
 
 
-td.w1:hover::after {
-    content: "       "; 
-    position: absolute;
-    background-color: #000; 
-    color: #fff; 
-    border-radius: 5px;
-}
-td.w2:hover::after {
-    content: "       "; 
-    position: absolute;
-    background-color: #000; 
-    color: #fff; 
-    border-radius: 5px;
-}
-td.w3:hover::after {
-    content: "       "; 
-    position: absolute;
-    background-color: #000; 
-    color: #fff; 
-    border-radius: 5px;
-}
-td.w4:hover::after {
-    content: "       "; 
-    position: absolute;
-    background-color: #000; 
-    color: #fff; 
-    border-radius: 5px;
-}
-td.w5:hover::after {
-    content: "       "; 
-    position: absolute;
-    background-color: #000; 
-    color: #fff; 
-    border-radius: 5px;
-}
-td.w6:hover::after {
-    content: "       "; 
-    position: absolute;
-    background-color: #000; 
-    color: #fff; 
-    border-radius: 5px;
-}
-td.w7:hover::after {
-    content: "       "; 
-    position: absolute;
-    background-color: #000; 
-    color: #fff; 
-    border-radius: 5px;
-}
-td.w8:hover::after {
-    content: "       "; 
-    position: absolute;
-    background-color: #000; 
-    color: #fff; 
-    border-radius: 5px;
-}
-td.w9:hover::after {
-    content: "       "; 
-    position: absolute;
-    background-color: #000; 
-    color: #fff; 
-    border-radius: 5px;
-}
-td.w10:hover::after {
-    content: "       "; 
-    position: absolute;
-    background-color: #000; 
-    color: #fff; 
-    border-radius: 5px;
-}
-td.w11:hover::after {
-    content: "       "; 
-    position: absolute;
-    background-color: #000; 
-    color: #fff; 
-    border-radius: 5px;
-}
-td.w12:hover::after {
-    content: "       "; 
-    position: absolute;
-    background-color: #000; 
-    color: #fff; 
-    border-radius: 5px;
-}
-td.w13:hover::after {
-    content: "       "; 
-    position: absolute;
-    background-color: #000; 
-    color: #fff; 
-    border-radius: 5px;
-}
-td.w14:hover::after {
-    content: "       "; 
-    position: absolute;
-    background-color: #000; 
-    color: #fff; 
-    border-radius: 5px;
-}
-td.w15:hover::after {
-    content: "       "; 
-    position: absolute;
-    background-color: #000; 
-    color: #fff; 
-    border-radius: 5px;
-}
+td.w1:hover::after { content: "   २०८१ असोज १ मंगलवार Sep 17, 2024 भदौ शुक्ल चतुर्दशी विश्वकर्मा पूजा/कन्या संक्रान्ति/इन्द्रजात्रा (उपत्यका बिदा)/राष्ट्रिय चलचित्र दिवस/वास्तु दिवस/अनन्त चतुर्दशी व्रत/पूर्णिमा व्रत/विश्व बिरामी सुरक्षा दिवस/राष्ट्रिय विज्ञान दिवस ( Bishwakarma Pooja/Kanya Sankranti/Indra Jaatra/National Film Day/Wastu Diwas/Ananta Chaturdashi Vrata/Poornima Vrata/World Patient Safety Day/National Science Day )    "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; }
+td.w2:hover::after { content: "  २०८१ असोज २ बुधवार Sep 18, 2024 भदौ शुक्ल पूर्णिमा सोह्रश्राद्ध प्रारम्भ (प्रतिपदा श्राद्ध)/चेपाङ चोनाम पर्व ( Sohra Shraddha Praarambha (Pratipada Shraddha)/Chepang Chonam Parva )     "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; }
+td.w3:hover::after { content: "    २०८१ असोज ३ बिहिवार Sep 19, 2024 असोज कृष्ण द्वितीया द्वितीया श्राद्ध/संविधान दिवस ( Dwitiya Shradhha/Constitution Day )   "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; }
+td.w4:hover::after { content: "   २०८१ असोज ४ शुक्रवार Sep 20, 2024 असोज कृष्ण तृतिया तृतीया श्राद्ध ( Tritiya Shraddha )    "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; }
+td.w5:hover::after { content: "     २०८१ असोज ५ शनिवार Sep 21, 2024 असोज कृष्ण चतुर्थी चतुर्थी श्राद्ध/विश्व अल्जाइमर्स दिवस/विश्व शान्ति दिवस ( Chaturthi Shraddha/World Alzheimer's Day/World Peace Day )  "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; }
+td.w6:hover::after { content: "   २०८१ असोज ६ आइतवार Sep 22, 2024 असोज कृष्ण पञ्चमी पञ्चमी श्राद्ध ( Panchami Shraddha )    "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; }
+td.w7:hover::after { content: "   २०८१ असोज ७ सोमवार Sep 23, 2024 असोज कृष्ण षष्ठी षष्ठी श्राद्ध ( Khasti Shraddha ) "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; }
+td.w8:hover::after { content: "    २०८१ असोज ८ मंगलवार Sep 24, 2024 असोज कृष्ण सप्तमी महालक्ष्मी व्रत समाप्ति/सप्तमी श्राद्ध ( Mahalakshmi Vrata samapti/Saptami Shraddha )   "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; }
+td.w9:hover::after { content: "    २०८१ असोज ९ बुधवार Sep 25, 2024 असोज कृष्ण अष्टमी अष्टमी श्राद्ध/बुधाष्टमी/गोरखकाली पूजा/जितियापर्व (पर्व मनाउने महिलाहरूलाई बिदा)/विश्व फार्मासिस्ट दिवस ( Ashtami Shraddha/Budhastami/Gorakhkali Puja/Jitiya Parva/World Pharmacists Day )   "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; }
+td.w10:hover::after { content: "  २०८१ असोज १० बिहिवार Sep 26, 2024 असोज कृष्ण नवमी नवमी श्राद्ध/अन्तराष्ट्रिय परमाणु हतियार निर्मुल दिवस ( Nawami Shraddha/International Day For The Elimination Of Neuclear Weapons )"; position: absolute; background-color: #000; color: #fff; border-radius: 5px; }
+td.w11:hover::after { content: "   २०८१ असोज ११ शुक्रवार Sep 27, 2024 असोज कृष्ण दशमी दशमी श्राद्ध/विश्व पर्यटन दिवस ( Dashami Shraddha/World Tourism Day )   "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; }
+td.w12:hover::after { content: "    २०८१ असोज १२ शनिवार Sep 28, 2024 असोज कृष्ण एकादशी इन्दिरा एकादशी व्रत/एकादशी श्राद्ध/विश्व रेबिज दिवस / अन्तर्राष्ट्रिय सूचनामा विश्वव्यापी पहुँचको दिवस ( Indira Ekadashi Vrata/Ekadashi Shraddha/World Rabies Day / International Day for Universal Access to Information )   "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; }
+td.w13:hover::after { content: "   २०८१ असोज १३ आइतवार Sep 29, 2024 असोज कृष्ण द्वादशी द्वादशी श्राद्ध / मघा श्राद्ध/विश्व मुटु दिवस ( Dwadashi Shraddha / Magha Shraddha/World Heart Day )    "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; }
+td.w14:hover::after { content: "      २०८१ असोज १४ सोमवार Sep 30, 2024 असोज कृष्ण त्रयोदशी सोम प्रदोष व्रत/त्रयोदशी श्राद्ध ( Som Pradosh Vrata/Trayodashi Shraddha ) "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; }
+td.w15:hover::after { content: "    २०८१ असोज १५ मंगलवार Oct 01, 2024 असोज कृष्ण चतुर्दशी चतुर्दशी श्राद्ध/अन्तर्राष्ट्रिय ज्येष्ठ नागरिक दिवस ( Chaturdashi Shraddha/International Day of Older Persons )   "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; }
 td.w16:hover::after {
     content: "       "; 
     position: absolute;
