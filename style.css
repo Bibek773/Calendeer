@@ -1,0 +1,1307 @@
+
+.header {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f9f9f9; 
+    padding: 10px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    text-align: right; 
+}
+
+.header p {
+    font-size: 14px;
+    color: #555; 
+    margin: 0;
+}
+
+.header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20px;
+    height: 20px;
+    background: linear-gradient(45deg, #f9f9f9, #ddd); 
+    clip-path: polygon(100% 0, 0 100%, 100% 100%); 
+    z-index: -1; 
+}
+.calender{
+    margin-top: 50px;
+}
+.month active{
+    border: 5px solid blue;
+    height: 700px;
+    width: 700px;
+    float: left;
+    margin-left: 20px ;
+    font-size: 30px;
+}
+td{
+    border: 1px solid black;
+    height: 80px;
+    width: 80px;
+}
+h4{
+    color: black;
+    text-align: center;
+    background:rgb(209, 206, 170);
+    height: 50px;
+    width: 100%;
+}
+td.b1 {
+    transition: all 0.3s ease;
+}
+
+td.b1:hover {
+    background-color: rgb(208, 255, 170);
+    cursor: pointer;
+}
+
+td.b1:hover::after {
+    content: "१ वैशाख २०८१, शनिवार April 13, 2024 चैत शुक्ल पञ्चमी :: नयाँ वर्ष / मेष संक्रान्ति / बिस्का: जात्रा"; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+.hover-content {
+    position: relative;
+}
+
+td.b2 {
+    transition: all 0.3s ease;
+}
+
+td.b2:hover {
+    background-color: rgb(208, 255, 170);
+    cursor: pointer;
+}
+
+td.b2:hover::after {
+    content: "२ वैशाख २०८१, आइतवार    April 14, 2024    चैत शुक्ल षष्ठी"; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+
+td.b3 {
+    transition: all 0.3s ease;
+}
+
+td.b3:hover {
+    background-color: rgb(208, 255, 170);
+    cursor: pointer;
+}
+
+td.b3:hover::after {
+    content: "३ वैशाख २०८१, सोमवार    April 15, 2024    चैत शुक्ल सप्तमी:विश्व कला दिवस"; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+
+td.b4 {
+    transition: all 0.3s ease;
+}
+
+td.b4:hover {
+    background-color: rgb(208, 255, 170);
+    cursor: pointer;
+}
+
+td.b4:hover::after {
+    content: "४ वैशाख २०८१, मंगलवार    April 16, 2024    चैत शुक्ल अष्टमी: जनबहा द्यः जात्रा (सेतो मच्छिन्द्रनाथ जात्रा)/चैते दशैँ/भाैमाष्टमी व्रत/गोरखकाली पूजा"; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.b5 {
+    transition: all 0.3s ease;
+}
+
+td.b5:hover {
+    background-color: rgb(208, 255, 170);
+    cursor: pointer;
+}
+
+td.b5:hover::after {
+    content: "५ वैशाख २०८१, बुधवार    April 17, 2024    चैत शुक्ल नवमी::श्री राम नवमी व्रत"; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.b6 {
+    transition: all 0.3s ease;
+}
+
+td.b6:hover {
+    background-color: rgb(208, 255, 170);
+    cursor: pointer;
+}
+
+td.b6:hover::after {
+    content: "६ वैशाख २०८१, बिहिवार    April 18, 2024    चैत शुक्ल दशमी: विश्व सम्पदा दिवस"; 
+    position: absolute;
+    background-color: #000; 
+    /* color: #fff;  */
+    border-radius: 5px;
+}
+td.b7 {
+    transition: all 0.3s ease;
+}
+
+td.b7:hover {
+    background-color: rgb(208, 255, 170);
+    cursor: pointer;
+}
+
+td.b7:hover::after {
+    content: "७ वैशाख २०८१, शुक्रवार    April 19, 2024    चैत शुक्ल एकादशी:कामदा एकादशी व्रत"; 
+    position: absolute;
+    background-color: #000; 
+    /* color: #fff;  */
+    border-radius: 5px;
+}
+td.b8 {
+    transition: all 0.3s ease;
+}
+
+td.b8:hover {
+    background-color: rgb(208, 255, 170);
+    cursor: pointer;
+}
+
+td.b8:hover::after {
+    content: "८ वैशाख २०८१, शनिवार   April 20, 2024    चैत शुक्ल द्वादशी    पञ्चाङ्ग: छन्द दिवस"; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+
+td.b9 {
+    transition: all 0.3s ease;
+}
+
+td.b9:hover {
+    background-color: rgb(208, 255, 170);
+    cursor: pointer;
+}
+
+td.b9:hover::after {
+    content: "९ वैशाख २०८१, आइतवार    April 21, 2024    चैत शुक्ल त्रयोदशी::महावीर जयन्ती/प्रदोष व्रत"; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.b10 {
+    transition: all 0.3s ease;
+}
+
+td.b10:hover {
+    background-color: rgb(208, 255, 170);
+    cursor: pointer;
+}
+
+td.b10:hover::after {
+    content: "१० वैशाख २०८१, सोमवार    April 22, 2024    चैत शुक्ल चतुर्दशी: विश्व पृथ्वी दिवस"; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+
+
+td.b11 {
+    transition: all 0.3s ease;
+}
+
+td.b11:hover {
+    background-color: rgb(208, 255, 170);
+    cursor: pointer;
+}
+
+td.b11:hover::after {
+    content: "११ वैशाख २०८१, मंगलवारApril 23, 2024 चैत शुक्ल पूर्णिमा :: लोकतन्त्र दिवस/पूर्णिमा व्रत/हनुमान जयन्ती/बैसाख स्नान प्रारम्भ/विश्व पुस्तक तथा प्रतिलिपि अधिकार दिवस"; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+
+
+td.b12 {
+    transition: all 0.3s ease;
+}
+
+td.b12:hover {
+    background-color: rgb(208, 255, 170);
+    cursor: pointer;
+}
+
+td.b12:hover::after {
+    content: "१२ वैशाख २०८१, बुधवार    April 24, 2024    चैत शुक्ल पूर्णिमा:: विसं २०७२ सालको महाभुकम्पको सम्झना/विश्व खोप सप्ताह"; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+
+td.b13 {
+    transition: all 0.3s ease;
+}
+
+td.b13:hover {
+    background-color: rgb(208, 255, 170);
+    cursor: pointer;
+}
+
+td.b13:hover::after {
+    content: "१३ वैशाख २०८१, बिहिवार    April 25, 2024    वैशाख कृष्ण प्रतिपदा        विश्व औंलो दिवस     "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+
+td.b14 {
+    transition: all 0.3s ease;
+}
+
+td.b14:hover {
+    background-color: rgb(208, 255, 170);
+    cursor: pointer;
+}
+
+td.b14:hover::after {
+    content: "       १४ वैशाख २०८१, शुक्रवार    April 26, 2024    वैशाख कृष्ण द्वितीया    पञ्चाङ्ग: वरियान गर अनुराधा        विश्व बौद्धिक सम्पत्ति दिवस     "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.b15 {
+    transition: all 0.3s ease;
+}
+
+td.b15:hover {
+    background-color: rgb(208, 255, 170);
+    cursor: pointer;
+}
+
+td.b15:hover::after {
+    content: "२०८१ वैशाख  १५    शनिवार    Apr 27, 2024    वैशाख कृष्ण तृतिया    स्वामी शशिधर जन्मजयन्ती ( Swami Shashidhar Janma Jayanti )            "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.b16 {
+    transition: all 0.3s ease;
+}
+
+td.b16:hover {
+    background-color: rgb(208, 255, 170);
+    cursor: pointer;
+}
+
+td.b16:hover::after {
+    content: "२०८१ वैशाख    १६    आइतवार    Apr 28, 2024    वैशाख कृष्ण चतुर्थी    काममा सुरक्षा र स्वास्थ्यको लागि विश्व दिवस ( World Day for Safety and Health at Work )            "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.b17 {
+    transition: all 0.3s ease;
+}
+
+td.b17:hover {
+    background-color: rgb(208, 255, 170);
+    cursor: pointer;
+}
+
+td.b17:hover::after {
+    content: "  २०८१ वैशाख    १७    सोमवार    Apr 29, 2024    वैशाख कृष्ण पञ्चमी    अन्तर्राष्ट्रिय नृत्य दिवस ( International Dance Day )          "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.b18 {
+    transition: all 0.3s ease;
+}
+
+td.b18:hover {
+    background-color: rgb(208, 255, 170);
+    cursor: pointer;
+}
+
+td.b18:hover::after {
+    content: "२०८१ वैशाख    १८    मंगलवार    Apr 30, 2024    वैशाख कृष्ण षष्ठी"; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.b19 {
+    transition: all 0.3s ease;
+}
+
+td.b19:hover {
+    background-color: rgb(208, 255, 170);
+    cursor: pointer;
+}
+
+td.b19:hover::after {
+    content: "    २०८१ वैशाख    १९    बुधवार    May 01, 2024    वैशाख कृष्ण सप्तमी    अन्तर्राष्ट्रिय श्रमिक दिवस/बुधाष्टमी व्रत/गोरखकाली पूजा ( International Labour Day/Budhaastami Vrata/Gorakhkali Puja )        "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.b20 {
+    transition: all 0.3s ease;
+}
+
+td.b20:hover {
+    background-color: rgb(208, 255, 170);
+    cursor: pointer;
+}
+
+td.b20:hover::after {
+    content: "२०८१ वैशाख    २०    बिहिवार    May 02, 2024    वैशाख कृष्ण नवमी            "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+
+
+td.b21 {
+    transition: all 0.3s ease;
+}
+
+td.b21:hover {
+    background-color: rgb(208, 255, 170);
+    cursor: pointer;
+}
+
+td.b21:hover::after {
+    content: " २०८१ वैशाख    २१    शुक्रवार    May 03, 2024    वैशाख कृष्ण दशमी    विश्व प्रेस स्वतन्त्रता दिवस ( International Press Freedom Day ) "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+
+
+td.b22 {
+    transition: all 0.3s ease;
+}
+
+td.b22:hover {
+    background-color: rgb(208, 255, 170);
+    cursor: pointer;
+}
+
+td.b22:hover::after {
+    content: " २०८१ वैशाख    २२    शनिवार    May 04, 2024    वैशाख कृष्ण एकादशी    बरुथिनी एकादशी व्रत ( Baruthini Ekadashi Vrata )"; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+
+td.b23:hover, td.b24:hover, td.b25:hover, td.b26:hover,td.b27:hover, td.b28:hover, td.b29:hover, td.b30:hover, td.b31:hover {
+    background-color: rgb(208, 255, 170);
+    cursor: pointer;
+}
+
+
+td.b23:hover::after {
+    content: "    २०८१ वैशाख    २३    आइतवार    May 05, 2024    वैशाख कृष्ण द्वादशी    प्रदोष व्रत/विश्व हाँसाे दिवस ( Pradosh Vrata/World Laughter Day )  ";
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.b24:hover::after {
+    content: "    २०८१ वैशाख    २४    सोमवार    May 06, 2024    वैशाख कृष्ण त्रयोदशी    किराँत समाज सुधार दिवस ( Kirat Samaj Sudhar Diwas )        "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+
+td.b25:hover::after {
+    content: " २०८१ वैशाख    २५    मंगलवार    May 07, 2024    वैशाख कृष्ण चतुर्दशी "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.b26:hover::after {
+    content: "  २०८१ वैशाख    २६    बुधवार    May 08, 2024    वैशाख कृष्ण औंसी    मातातीर्थ औंसी (आमाको मुख हेर्ने दिन)/विश्व रेडक्रस दिवस/कानुन दिवस ( Matatirtha Aunshi (Mother's Day)/World Redcross Day/Law Day )"; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.b27:hover::after {
+    content: "२०८१ वैशाख    २७    बिहिवार    May 09, 2024    वैशाख शुक्ल प्रतिपदा    ललितपुर मत्स्यन्द्रनाथ रथारोहण ( Lalitpur Matsyandranath Ratharohan )  "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.b28:hover::after {
+    content: "  २०८१ वैशाख    २८    शुक्रवार    May 10, 2024    वैशाख शुक्ल तृतिया    अक्षय तृतीया व्रत/परशुराम जयन्ती/महिला ज्योतिष संघ स्थापना दिवस ( Akshaya Tritiya Vrata/Parshuram Jayanti/Mahila Jyotish Sangh Sthaapana Diwas )"; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+
+td.b29:hover::after {
+    content: "२०८१ वैशाख    २९    शनिवार    May 11, 2024    वैशाख शुक्ल चतुर्थी    ललितपुर मच्छिन्द्रनाथ रथ यात्रा ( Lalitpur MacchindraNath Ratha Yatra )  "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.b30:hover::after {
+    content: " २०८१ वैशाख    ३०    आइतवार    May 12, 2024    वैशाख शुक्ल पञ्चमी    आद्यगुरु शंकराचार्य जयन्ती/रामानुजाचार्य जयन्ती/अन्तर्राष्ट्रिय नर्स दिवस ( Aadhyaguru Shankarachaarya Jayanti/Ramanujacharya Jayanti/International Nurses Day ) "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.b31:hover::after {
+    content: " २०८१ वैशाख    ३१    सोमवार    May 13, 2024    वैशाख शुक्ल षष्ठी "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.j1:hover,td.j2:hover,td.j3:hover,td.j4:hover,td.j5:hover,td.j6:hover,td.j7:hover,td.j8:hover,td.j9:hover,td.j10:hover,td.j11:hover,td.j12:hover,td.j13:hover,td.j14:hover,td.j15:hover,td.j16:hover,td.j17:hover,td.j18:hover,td.j19:hover,td.j20:hover,td.j21:hover,td.j22:hover,td.j23:hover,td.j24:hover,td.j25:hover,td.j26:hover,td.j27:hover,td.j28:hover,td.j29:hover,td.j30:hover,td.j31:hover,td.j32:hover{
+    background-color: rgb(208, 255, 170);
+    cursor: pointer;
+}
+
+td.a1:hover,td.a2:hover,td.a3:hover,td.a4:hover,td.a5:hover,td.a6:hover,td.a7:hover,td.a8:hover,td.a9:hover,td.a10:hover,td.a11:hover,td.a12:hover,td.a13:hover,td.a14:hover,td.a15:hover,td.a16:hover,td.a17:hover,td.a18:hover,td.a19:hover,td.a20:hover,td.a21:hover,td.a22:hover,td.a23:hover,td.a24:hover,td.a25:hover,td.a26:hover,td.a27:hover,td.a28:hover,td.a29:hover,td.a30:hover,td.a31:hover{
+    background-color: rgb(208, 255, 170);
+    cursor: pointer;
+}
+td.s1:hover,td.s2:hover,td.s3:hover,td.s4:hover,td.s5:hover,td.s6:hover,td.s7:hover,td.s8:hover,td.s9:hover,td.s10:hover,td.s11:hover,td.s12:hover,td.s13:hover,td.s14:hover,td.s15:hover,td.s16:hover,td.s17:hover,td.s18:hover,td.s19:hover,td.s20:hover,td.s21:hover,td.s22:hover,td.s23:hover,td.s24:hover,td.s25:hover,td.s26:hover,td.s27:hover,td.s28:hover,td.s29:hover,td.s30:hover,td.s31:hover,td.s32:hover{
+    background-color: rgb(208, 255, 170);
+    cursor: pointer;
+}
+td.v1:hover,td.v2:hover,td.v3:hover,td.v4:hover,td.v5:hover,td.v6:hover,td.v7:hover,td.v8:hover,td.v9:hover,td.v10:hover,td.v11:hover,td.v12:hover,td.v13:hover,td.v14:hover,td.v15:hover,td.v16:hover,td.v17:hover,td.v18:hover,td.v19:hover,td.v20:hover,td.v21:hover,td.v22:hover,td.v23:hover,td.v24:hover,td.v25:hover,td.v26:hover,td.v27:hover,td.v28:hover,td.v29:hover,td.v30:hover,td.v31:hover{
+    background-color: rgb(208, 255, 170);
+    cursor: pointer;
+}
+td.w1:hover,td.w2:hover,td.w3:hover,td.w4:hover,td.w5:hover,td.w6:hover,td.w7:hover,td.w8:hover,td.w9:hover,td.w10:hover,td.w11:hover,td.w12:hover,td.w13:hover,td.w14:hover,td.w15:hover,td.w16:hover,td.w17:hover,td.w18:hover,td.w19:hover,td.w20:hover,td.w21:hover,td.w22:hover,td.w23:hover,td.w24:hover,td.w25:hover,td.w26:hover,td.w27:hover,td.w28:hover,td.w29:hover,td.w30:hover,td.w31:hover{
+    background-color: rgb(208, 255, 170);
+    cursor: pointer;
+}
+td.k1:hover,td.k2:hover,td.k3:hover,td.k4:hover,td.k5:hover,td.k6:hover,td.k7:hover,td.k8:hover,td.k9:hover,td.k10:hover,td.k11:hover,td.k12:hover,td.k13:hover,td.k14:hover,td.k15:hover,td.k16:hover,td.k17:hover,td.k18:hover,td.k19:hover,td.k20:hover,td.k21:hover,td.k22:hover,td.k23:hover,td.k24:hover,td.k25:hover,td.k26:hover,td.k27:hover,td.k28:hover,td.k29:hover,td.k30:hover,td.k31:hover{
+    background-color: rgb(208, 255, 170);
+    cursor: pointer;
+}
+td.m1:hover,td.m2:hover,td.m3:hover,td.m4:hover,td.m5:hover,td.m6:hover,td.m7:hover,td.m8:hover,td.m9:hover,td.m10:hover,td.m11:hover,td.m12:hover,td.m13:hover,td.m14:hover,td.m15:hover,td.m16:hover,td.m17:hover,td.m18:hover,td.m19:hover,td.m20:hover,td.m21:hover,td.m22:hover,td.m23:hover,td.m24:hover,td.m25:hover,td.m26:hover,td.m27:hover,td.m28:hover,td.m29:hover,td.m30:hover,td.m31:hover{
+    background-color: rgb(208, 255, 170);
+    cursor: pointer;
+}
+td.p1:hover,td.p2:hover,td.p3:hover,td.p4:hover,td.p5:hover,td.p6:hover,td.p7:hover,td.p8:hover,td.p9:hover,td.p10:hover,td.p11:hover,td.p12:hover,td.p13:hover,td.p14:hover,td.p15:hover,td.p16:hover,td.p17:hover,td.p18:hover,td.p19:hover,td.p20:hover,td.p21:hover,td.p22:hover,td.p23:hover,td.p24:hover,td.p25:hover,td.p26:hover,td.p27:hover,td.p28:hover,td.p29:hover,td.p30:hover,td.p31:hover{
+    background-color: rgb(208, 255, 170);
+    cursor: pointer;
+}
+td.g1:hover,td.g2:hover,td.g3:hover,td.g4:hover,td.g5:hover,td.g6:hover,td.g7:hover,td.g8:hover,td.g9:hover,td.g10:hover,td.g11:hover,td.g12:hover,td.g13:hover,td.g14:hover,td.g15:hover,td.g16:hover,td.g17:hover,td.g18:hover,td.g19:hover,td.g20:hover,td.g21:hover,td.g22:hover,td.g23:hover,td.g24:hover,td.g25:hover,td.g26:hover,td.g27:hover,td.g28:hover,td.g29:hover,td.g30:hover,td.g31:hover{
+    background-color: rgb(208, 255, 170);
+    cursor: pointer;
+}
+td.f1:hover,td.f2:hover,td.f3:hover,td.f4:hover,td.f5:hover,td.f6:hover,td.f7:hover,td.f8:hover,td.f9:hover,td.f10:hover,td.f11:hover,td.f12:hover,td.f13:hover,td.f14:hover,td.f15:hover,td.f16:hover,td.f17:hover,td.f18:hover,td.f19:hover,td.f20:hover,td.f21:hover,td.f22:hover,td.f23:hover,td.f24:hover,td.f25:hover,td.f26:hover,td.f27:hover,td.f28:hover,td.f29:hover,td.f30:hover,td.f31:hover{
+    background-color: rgb(208, 255, 170);
+    cursor: pointer;
+}
+td.z1:hover,td.z2:hover,td.z3:hover,td.z4:hover,td.z5:hover,td.z6:hover,td.z7:hover,td.z8:hover,td.z9:hover,td.z10:hover,td.z11:hover,td.z12:hover,td.z13:hover,td.z14:hover,td.z15:hover,td.z16:hover,td.z17:hover,td.z18:hover,td.z19:hover,td.z20:hover,td.z21:hover,td.z22:hover,td.z23:hover,td.z24:hover,td.z25:hover,td.z26:hover,td.z27:hover,td.z28:hover,td.z29:hover,td.z30:hover,td.z31:hover{
+    background-color: rgb(208, 255, 170);
+    cursor: pointer;
+}
+td.j1:hover::after {
+    content: " २०८१ जेठ    १    मंगलवार    May 14, 2024    वैशाख शुक्ल सप्तमी    वृष संक्रान्ति/गङ्गा सप्तमी व्रत ( Brish Sankranti/Ganga Saptami Vrata )"; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.j2:hover::after {
+    content: " २०८१ जेठ    २    बुधवार    May 15, 2024    वैशाख शुक्ल अष्टमी    अन्तर्राष्ट्रिय परिवार दिवस ( International Day of Families ) "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.j3:hover::after {
+    content: "  २०८१ जेठ    ३    बिहिवार    May 16, 2024    वैशाख शुक्ल अष्टमी    सीता जयन्ती/गोरखकाली पूजा ( Sita jayanti/Gorakhkali Puja )   "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.j4:hover::after {
+    content: " २०८१ जेठ    ४    शुक्रवार    May 17, 2024    वैशाख शुक्ल नवमी    विश्व दूरसञ्चार दिवस / विश्व उच्च रक्तचाप दिवस ( World Telecommunication day / World Hypertension Day )    "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.j5:hover::after {
+    content: "   २०८१ जेठ    ५    शनिवार    May 18, 2024    वैशाख शुक्ल दशमी  "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.j6:hover::after {
+    content: " २०८१ जेठ    ६    आइतवार    May 19, 2024    वैशाख शुक्ल एकादशी    मोहिनी एकादशी व्रत ( Mohini Ekadashi Vrata )    "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.j7:hover::after {
+    content: "   २०८१ जेठ    ७    सोमवार    May 20, 2024    वैशाख शुक्ल द्वादशी    सोम प्रदोष व्रत ( Som Pradosh Vrata )  "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.j8:hover::after {
+    content: "   २०८१ जेठ    ८    मंगलवार    May 21, 2024    वैशाख शुक्ल त्रयोदशी    नृसिंह जयन्ती ( Nrisingha Jayanti )  "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.j9:hover::after {
+    content: "  २०८१ जेठ    ९    बुधवार    May 22, 2024    वैशाख शुक्ल चतुर्दशी    अन्तर्राष्ट्रिय जैविक विविधता दिवस ( International Day for Biological Diversity )   "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.j10:hover::after {
+    content: " २०८१ जेठ    १०    बिहिवार    May 23, 2024    वैशाख शुक्ल पूर्णिमा    बुद्ध जयन्ती / उभौली पर्व / चण्डेश्वरी जात्रा/ चण्डी पूर्णिमा/कुर्म जयन्ती / गोरखनाथ जयन्ती/पूर्णिमा व्रत/बैसाख स्नान समाप्ति ( Buddha Jayanti / Ubhauli Parwa/ Chandeshwari Jatra/ Chandi Poornima/Kurma Jayanti/ Gorakhnath Jayanti/Poornima Vrata/Baisakh Snan Samapti )    "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.j11:hover::after {
+    content: "  २०८१ जेठ    ११    शुक्रवार    May 24, 2024    जेठ कृष्ण प्रतिपदा   "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.j12:hover::after {
+    content: " २०८१ जेठ    १२    शनिवार    May 25, 2024    जेठ कृष्ण द्वितीया    "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.j13:hover::after {
+    content: "   २०८१ जेठ    १३    आइतवार    May 26, 2024    जेठ कृष्ण तृतिया      "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.j14:hover::after {
+    content: "   २०८१ जेठ    १४    सोमवार    May 27, 2024    जेठ कृष्ण चतुर्थी  "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.j15:hover::after {
+    content: " २०८१ जेठ    १५    मंगलवार    May 28, 2024    जेठ कृष्ण पञ्चमी    गणतन्त्र दिवस ( National Republic Day )    "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.j16:hover::after {
+    content: "   २०८१ जेठ    १६    बुधवार    May 29, 2024    जेठ कृष्ण षष्ठी  "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.j17:hover::after {
+    content: "  २०८१ जेठ    १७    बिहिवार    May 30, 2024    जेठ कृष्ण सप्तमी    गोरखकाली पूजा ( Gorakhkali Puja )   "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.j18:hover::after {
+    content: "   २०८१ जेठ    १८    शुक्रवार    May 31, 2024    जेठ कृष्ण अष्टमी    विश्व सुर्तीजन्य पदार्थ विरुद्धको दिवस ( World No Tobacco Day )  "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.j19:hover::after {
+    content: "  २०८१ जेठ    १९    शनिवार    Jun 01, 2024    जेठ कृष्ण नवमी    विश्व बुवाआमा दिवस ( Global Day Of Parents )   "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.j20:hover::after {
+    content: "  २०८१ जेठ    २०    आइतवार    Jun 02, 2024    जेठ कृष्ण दशमी    स्मार्तहरूको अपरा एकादशी व्रत/चित्तधर हृदय जन्मजयन्ती ( Apara Ekadashi Vrata (Smarta)/Chittadhar Hridaya Janma Jayanti )   "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.j21:hover::after {
+    content: "   २०८१ जेठ    २१    सोमवार    Jun 03, 2024    जेठ कृष्ण द्वादशी    वैष्णवहरूको अपरा एकादशी व्रत/जातीय भेदभाव तथा छुवाछुत उन्मुलन राष्ट्रिय दिवस ( Apara Ekadashi Vrata (Vaisnav)/National Day for the Elimination of Racial Discrimination and Untouchability )  "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.j22:hover::after {
+    content: "   २०८१ जेठ    २२    मंगलवार    Jun 04, 2024    जेठ कृष्ण त्रयोदशी    प्रदोष व्रत/निर्दोष बालबालिका माथि अत्याचार विरुद्धको दिवस ( Pradosh Vrata/International Day of Innocent Children Victims of Aggression )  "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.j23:hover::after {
+    content: "   २०८१ जेठ    २३    बुधवार    Jun 05, 2024    जेठ कृष्ण चतुर्दशी    सिथि चःह्रे/विश्व वातावरण दिवस ( Sithi Cha: Hre/World Environment Day )  "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.j24:hover::after {
+    content: "   २०८१ जेठ    २४    बिहिवार    Jun 06, 2024    जेठ कृष्ण औंसी    बटसावित्री व्रत/शनि जयन्ती व्रत ( Bata sabitri Vrata/Shani Jayanti Vrata )  "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.j25:hover::after {
+    content: "  २०८१ जेठ २५ , गोसाइकुण्ड स्नान आरम्भ/दशहरा स्नान आरम्भ ( Gosaikunda Snan Aarambha/Dasahara Snan Arambha )   "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.j26:hover::after {
+    content: "   २०८१ जेठ    २६    शनिवार    Jun 08, 2024    जेठ शुक्ल द्वितीया  "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.j27:hover::after {
+    content: "  २०८१ जेठ    २७    आइतवार    Jun 09, 2024   जेठ शुक्ल तृतिया    राष्ट्रिय कृषक दिवस ( Rashtriya Krishak Diwas )   "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.j28:hover::after {
+    content: "  २०८१ जेठ    २८    सोमवार    Jun 10, 2024    जेठ शुक्ल चतुर्थी   "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.j29:hover::after {
+    content: "   २०८१ जेठ    २९    मंगलवार    Jun 11, 2024    जेठ शुक्ल पञ्चमी  "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.j30:hover::after {
+    content: "  २०८१ जेठ    ३०    बुधवार    Jun 12, 2024    जेठ शुक्ल षष्ठी    सिथि नख:/विश्व बालश्रम विरुद्ध दिवस ( Sithi Nakha/World Day Against Child Labour )   "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.j31:hover::after {
+    content: "  २०८१ जेठ    ३१    बिहिवार    Jun 13, 2024    जेठ शुक्ल सप्तमी   "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+
+td.j32:hover::after {
+    content: "   २०८१ जेठ    ३२    शुक्रवार    Jun 14, 2024    जेठ शुक्ल अष्टमी    गोरखकाली पूजा/विश्व रक्तदाता दिवस ( Gorakhkali Puja/World Blood Donor Day )  "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.a1:hover::after {
+    content: "   २०८१ असार    १    शनिवार    Jun 15, 2024    जेठ शुक्ल नवमी    मिथुन संक्रान्ति/विश्व अग्रज दुर्व्यवहार जागरुकता दिवस ( Mithun Sankranti/World Elder Abuse Awareness Day )    "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.a2:hover::after {
+    content: "  २०८१ असार    २    आइतवार    Jun 16, 2024    जेठ शुक्ल दशमी    गङ्गादशहरा व्रत/गोसाइकुण्ड स्नान समाप्ति/अन्तर्राष्ट्रिय परिवार रेमिटेयान्स दिवस/अन्तर्राष्ट्रिय बुवा दिवस ( Gangadasahara Vrata/Gosaikunda Snan Samapti/International Day of Family Remittances/International Father's Day )     "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.a3:hover::after {
+    content: "   २०८१ असार    ३    सोमवार    Jun 17, 2024    जेठ शुक्ल एकादशी    विश्व खडेरी विरुद्ध संघर्ष दिवस/स्मार्तहरूको निर्जला एकादशी व्रत ( World Day to Combat Desertification and Drought/Nirjala Ekadashi Vrata (Smarta) )    "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.a4:hover::after {
+    content: "   २०८१ असार    ४    मंगलवार    Jun 18, 2024    जेठ शुक्ल एकादशी    वैष्णवहरूको निर्जला एकादशी व्रत (तुलसीको दल राख्ने दिन ) ( Nirjala Ekadashi Vrata (Vaisnav) )    "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.a5:hover::after {
+    content: "    २०८१ असार    ५    बुधवार    Jun 19, 2024    जेठ शुक्ल द्वादशी    प्रदोष व्रत/द्वन्द्वमा यौन हिंसा उन्मूलनको लागि अन्तर्राष्ट्रिय दिवस ( Pradosh Vrata/International Day for the Elimination of Sexual Violence in Conflict )   "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.a6:hover::after {
+    content: "   २०८१ असार    ६    बिहिवार    Jun 20, 2024    जेठ शुक्ल त्रयोदशी    विश्व शरणार्थी दिवस ( World Refugee Day )    "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.a7:hover::after {
+    content: "   २०८१ असार    ७    शुक्रवार    Jun 21, 2024    जेठ शुक्ल चतुर्दशी    पूर्णिमा व्रत/विश्व योग दिवस / संगीत दिवस ( Poornima Vrata/World Yoga Day/ Music Day )    "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.a8:hover::after {
+    content: "  २०८१ असार    ८    शनिवार    Jun 22, 2024    जेठ शुक्ल पूर्णिमा    ज्या: पुन्हि/कवीर जयन्ती ( Jya: Punhi/Kabir Jayanti )     "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.a9:hover::after {
+    content: "    २०८१ असार    ९    आइतवार    Jun 23, 2024    असार कृष्ण प्रतिपदा    अन्तर्राष्ट्रिय एकल महिला दिवस ( International Widows Day )   "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.a10:hover::after {
+    content: "    २०८१ असार    १०    सोमवार    Jun 24, 2024    असार कृष्ण तृतिया   "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.a11:hover::after {
+    content: "   २०८१ असार    ११    मंगलवार    Jun 25, 2024    असार कृष्ण चतुर्थी    मंगलचौथी व्रत/भूमी पूजा ( Mangal Chauthi Vrata/Bhumi Pooja )    "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.a12:hover::after {
+    content: "    २०८१ असार    १२    बुधवार    Jun 26, 2024    असार कृष्ण पञ्चमी    अन्तर्राष्ट्रिय लागू पदार्थ तथा अवैध तस्करी विरुद्ध दिवस ( International Day against Drug Abuse and Illicit Trafficking )   "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.a13:hover::after {
+    content: "     २०८१ असार    १३    बिहिवार    Jun 27, 2024    असार कृष्ण षष्ठी  "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.a14:hover::after {
+    content: "   २०८१ असार    १४    शुक्रवार    Jun 28, 2024    असार कृष्ण सप्तमी    "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff;     border-radius: 5px;
+}
+td.a15:hover::after {
+    content: "    २०८१ असार    १५    शनिवार    Jun 29, 2024    असार कृष्ण अष्टमी      दहीचिउरा खाने दिन / राष्ट्रिय धान दिवस/गोरखकाली पूजा ( Dahi chiura Khane Din/ Rashtriya Dhan Diwas/Gorakhkali Puja )   "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.a16:hover::after {
+    content: "   २०८१ असार    १६    आइतवार    Jun 30, 2024    असार कृष्ण नवमी        "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.a17:hover::after {
+    content: "    २०८१ असार    १७    सोमवार    Jul 01, 2024    असार कृष्ण दशमी    अन्तर्राष्ट्रिय सहकारी दिवस ( International Cooperative Day )   "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.a18:hover::after {
+    content: "   २०८१ असार    १८    मंगलवार    Jul 02, 2024    असार कृष्ण एकादशी    योगिनी एकादशी व्रत/विश्व खेलकुद पत्रकार दिवस ( Yogini Ekadashi Vrata/World Sports Journalist Day )    "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.a19:hover::after {
+    content: "    २०८१ असार    १९    बुधवार    Jul 03, 2024    असार कृष्ण द्वादशी    प्रदोष व्रत ( Pradosh Vrata )   "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.a20:hover::after {
+    content: "  २०८१ असार    २०    बिहिवार    Jul 04, 2024    असार कृष्ण त्रयोदशी     "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.a21:hover::after {
+    content: "   २०८१ असार    २१    शुक्रवार    Jul 05, 2024    असार कृष्ण औंसी    "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.a22:hover::after {
+    content: "      २०८१ असार    २२    शनिवार    Jul 06, 2024    असार शुक्ल प्रतिपदा "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.a23:hover::after {
+    content: " २०८१ असार    २३    आइतवार    Jul 07, 2024    असार शुक्ल द्वितीया      "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.a24:hover::after {
+    content: "   २०८१ असार    २४    सोमवार    Jul 08, 2024    असार शुक्ल तृतिया    "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.a25:hover::after {
+    content: "   २०८१ असार    २५    मंगलवार    Jul 09, 2024    असार शुक्ल तृतिया    "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.a26:hover::after {
+    content: "    २०८१ असार    २६    बुधवार    Jul 10, 2024    असार शुक्ल चतुर्थी   "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.a27:hover::after {
+    content: "  २०८१ असार    २७    बिहिवार    Jul 11, 2024    असार शुक्ल पञ्चमी    विश्व जनसंख्या दिवस ( World Population Day )     "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.a28:hover::after {
+    content: "    २०८१ असार    २८    शुक्रवार    Jul 12, 2024    असार शुक्ल षष्ठी       "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.a29:hover::after {
+    content: "    २०८१ असार    २९    शनिवार    Jul 13, 2024    असार शुक्ल सप्तमी    भानु जयन्ती/सूर्य पूजा ( Bhanu Jayanti/Surya Pooja )   "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.a30:hover::after {
+    content: "    २०८१ असार    ३०    आइतवार   Jul 14, 2024    असार शुक्ल अष्टमी    गोरखकाली पूजा ( Gorakhkali Puja )  "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.a31:hover::after {
+    content: "    २०८१ असार    ३१    सोमवार    Jul 15, 2024    असार शुक्ल नवमी    विश्व युवा दक्षता दिवस ( World Youth Skill Day ) "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.s1:hover::after { content: "     २०८१ साउन १ मंगलवार Jul 16, 2024 असार शुक्ल दशमी कर्कट सङ्क्रान्ति / लुतो फाल्ने दिन/थारु गुरिया पर्व/दक्षिणायन आरम्भ ( Saune Shankranti/ Luto Falne Din/Tharu Guriya Parwa/Dakshinaayan Arambha )  "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.s2:hover::after { content: "  २०८१ साउन २ बुधवार Jul 17, 2024 असार शुक्ल एकादशी हरिशयनी एकादशी व्रत (तुलसी रोप्ने)/चतुर्मास व्रत आरम्भ ( Harishayani Ekadashi Vrata/Chaturmaas Wrata Aarambha )     "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.s3:hover::after { content: "    २०८१ साउन ३ बिहिवार Jul 18, 2024 असार शुक्ल द्वादशी प्रदोष व्रत ( Pradosh Vrata )   "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.s4:hover::after { content: "      २०८१ साउन ४ शुक्रवार Jul 19, 2024 असार शुक्ल त्रयोदशी "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.s5:hover::after { content: " २०८१ साउन ५ शनिवार Jul 20, 2024 असार शुक्ल चतुर्दशी पूर्णिमा व्रत ( Poornima Vrata )      "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.s6:hover::after { content: " २०८१ साउन ६ आइतवार Jul 21, 2024 असार शुक्ल पूर्णिमा गुरु पुर्णिमा व्रत/व्यास जयन्ती ( Guru Purnima Vrata/Vyas Jayanti )      "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.s7:hover::after { content: "   २०८१ साउन ७ सोमवार Jul 22, 2024 साउन कृष्ण प्रतिपदा    "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.s8:hover::after { content: "  २०८१ साउन ८ मंगलवार Jul 23, 2024 साउन कृष्ण द्वितीया     "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.s9:hover::after { content: "   २०८१ साउन ९ बुधवार Jul 24, 2024 साउन कृष्ण तृतिया    "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.s10:hover::after { content: "    २०८१ साउन १० बिहिवार Jul 25, 2024 साउन कृष्ण पञ्चमी   "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.s11:hover::after { content: "    २०८१ साउन ११ शुक्रवार Jul 26, 2024 साउन कृष्ण षष्ठी बीतक कथा प्रारम्भ ( Vitak Katha Arambha )   "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.s12:hover::after { content: "   २०८१ साउन १२ शनिवार Jul 27, 2024 साउन कृष्ण सप्तमी    "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.s13:hover::after { content: "   २०८१ साउन १३ आइतवार Jul 28, 2024 साउन कृष्ण अष्टमी विश्व हेपाटाइटिस दिवस/गोरखकाली पूजा ( World Hepatitis Day/Gorakhkali Puja )    "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.s14:hover::after { content: "     २०८१ साउन १४ सोमवार Jul 29, 2024 साउन कृष्ण नवमी विश्व बाघ दिवस ( World Tiger Day )  "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.s15:hover::after { content: "   २०८१ साउन १५ मंगलवार Jul 30, 2024 साउन कृष्ण दशमी खीर खाने दिन/अन्तराष्ट्रिय मानव बेचबिखन विरुद्ध दिवस/अन्तर्राष्ट्रिय मित्रता दिवस ( Khir Khane Din/World Day against Trafficking in Persons/International Friendship Day )    "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.s16:hover::after { content: "   २०८१ साउन १६ बुधवार Jul 31, 2024 साउन कृष्ण एकादशी कामिका एकादशी व्रत ( Kamika Ekadashi Vrata )    "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.s17:hover::after { content: "   २०८१ साउन १७ बिहिवार Aug 01, 2024 साउन कृष्ण द्वादशी प्रदोष व्रत/विश्व स्तनपान सप्ताह प्रारम्भ ( Pradosh Vrata/World BreastFeeding Week )    "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.s18:hover::after { content: "   २०८१ साउन १८ शुक्रवार Aug 02, 2024 साउन कृष्ण त्रयोदशी गथांमुगः चःह्रे ( Gathamug Chahre )    "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.s19:hover::after { content: "   २०८१ साउन १९ शनिवार Aug 03, 2024 साउन कृष्ण चतुर्दशी    "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.s20:hover::after { content: "   २०८१ साउन २० आइतवार Aug 04, 2024 साउन कृष्ण औंसी    "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.s21:hover::after { content: " २०८१ साउन २१ सोमवार Aug 05, 2024 साउन शुक्ल प्रतिपदा गुँलापर्व आरम्भ ( Gunla Parwa Arambha )      "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.s22:hover::after { content: "  २०८१ साउन २२ मंगलवार Aug 06, 2024 साउन शुक्ल द्वितीया     "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.s23:hover::after { content: "   २०८१ साउन २३ बुधवार Aug 07, 2024 साउन शुक्ल तृतिया वराह जयन्ती ( Baraah Jayanti )    "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.s24:hover::after { content: "   २०८१ साउन २४ बिहिवार Aug 08, 2024 साउन शुक्ल चतुर्थी अन्तर्राष्ट्रिय भू संरक्षण दिवस ( International Soil Conservation Day )    "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.s25:hover::after { content: "   २०८१ साउन २५ शुक्रवार Aug 09, 2024 साउन शुक्ल पञ्चमी नाग पञ्चमी व्रत/अन्तर्राष्ट्रिय आदिवासी दिवस ( Nag Panchami Vrata/International Day of the World's Indigenous Peoples )    "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.s26:hover::after { content: "   २०८१ साउन २६ शनिवार Aug 10, 2024 साउन शुक्ल षष्ठी कल्की जयन्ती ( Kalki Jayanti )    "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.s27:hover::after { content: "  २०८१ साउन २७ आइतवार Aug 11, 2024 साउन शुक्ल षष्ठी रविसप्तमी व्रत/तुलसीदास जयन्ती ( Ravisaptami Vrata/Tulasidas Jayanti )     "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.s28:hover::after { content: "   २०८१ साउन २८ सोमवार Aug 12, 2024 साउन शुक्ल सप्तमी अन्तर्राष्ट्रिय युवा दिवस/गोरखकाली पूजा ( International Youth Day/Gorakhkali Puja )    "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.s29:hover::after { content: "    २०८१ साउन २९ मंगलवार Aug 13, 2024 साउन शुक्ल अष्टमी   "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.s30:hover::after { content: "   २०८१ साउन ३० बुधवार Aug 14, 2024 साउन शुक्ल नवमी विश्व सुलेखन दिवस ( World Calligraphy Day )    "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.s31:hover::after { content: " २०८१ साउन ३१ बिहिवार Aug 15, 2024 साउन शुक्ल दशमी      "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.s32:hover::after { content: "  २०८१ साउन ३२ शुक्रवार Aug 16, 2024 साउन शुक्ल एकादशी पुत्रदा एकादशी व्रत ( Putrada Ekadashi Vrata )     "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; }
+
+td.v1:hover::after { content: "  २०८१ भदौ १ शनिवार Aug 17, 2024 साउन शुक्ल द्वादशी सिंह संक्रान्ति/शनि प्रदोष व्रत ( Singh Sankranti/Shani Pradosh Vrata )     "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.v2:hover::after { content: "     २०८१ भदौ २ आइतवार Aug 18, 2024 साउन शुक्ल त्रयोदशी  "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.v3:hover::after { content: "   २०८१ भदौ ३ सोमवार Aug 19, 2024 साउन शुक्ल पूर्णिमा जनै पूर्णिमा / रक्षा बन्धन/पूर्णिमा व्रत/ऋषितर्पणी/संस्कृत दिवस/विश्व फोटोग्राफी दिवस ( Janai Poornima/ Rakshya Bandhan/Poornima Vrata/Rishi Tarpani/Sanskrit Diwas/World Photography Day )    "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.v4:hover::after { content: "   २०८१ भदौ ४ मंगलवार Aug 20, 2024 भदौ कृष्ण प्रतिपदा गाईजात्रा / सापारु (नेवा समुदायलाई मात्र) ( Gaijatra / Saparu )    "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.v5:hover::after { content: "     २०८१ भदौ ५ बुधवार Aug 21, 2024 भदौ कृष्ण द्वितीया रोपाईं जात्रा ( Ropai Jatra )  "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.v6:hover::after { content: "    २०८१ भदौ ६ बिहिवार Aug 22, 2024 भदौ कृष्ण तृतिया   "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.v7:hover::after { content: "   २०८१ भदौ ७ शुक्रवार Aug 23, 2024 भदौ कृष्ण चतुर्थी "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.v8:hover::after { content: "    २०८१ भदौ ८ शनिवार Aug 24, 2024 भदौ कृष्ण पञ्चमी   "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.v9:hover::after { content: "    २०८१ भदौ ९ आइतवार Aug 25, 2024 भदौ कृष्ण षष्ठी राष्ट्रिय धर्मसभा दिवस/गौरा सप्तमी ( Rashtriya Dharmasabha Diwas/Gaura Saptami )   "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.v10:hover::after { content: "  २०८१ भदौ १० सोमवार Aug 26, 2024 भदौ कृष्ण अष्टमी श्रीकृष्ण जन्माष्टमी/गाैरा पर्व (सम्बन्धित समुदायलाई मात्र)/गोरखकाली पूजा ( Shree Krishna Janmashtami/Gaura Parva/Gorakhkali Puja ) "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.v11:hover::after { content: " २०८१ भदौ ११ मंगलवार Aug 27, 2024 भदौ कृष्ण नवमी      "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.v12:hover::after { content: "   २०८१ भदौ १२ बुधवार Aug 28, 2024 भदौ कृष्ण दशमी "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.v13:hover::after { content: "  २०८१ भदौ १३ बिहिवार Aug 29, 2024 भदौ कृष्ण एकादशी स्मार्तहरूको अजा एकादशी व्रत/विश्व आणविक परिक्षण विरुद्धको दिवस ( Ajaa Ekadashi Vrata (Smarta)/International Day Against Nuclear Tests )     "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.v14:hover::after { content: "  २०८१ भदौ १४ शुक्रवार Aug 30, 2024 भदौ कृष्ण द्वादशी वैश्णवहरूको अजा एकादशी व्रत/विश्व बेपत्ता विरुद्धको दिवस ( Ajaa Ekadashi Vrata (Vaisnav)/International Day of the Victims of Enforced Disappearances )     "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.v15:hover::after { content: "     २०८१ भदौ १५ शनिवार Aug 31, 2024 भदौ कृष्ण त्रयोदशी शनि प्रदोष व्रत ( Shani Pradosh Vrata )  "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.v16:hover::after { content: "     २०८१ भदौ १६ आइतवार Sep 01, 2024 भदौ कृष्ण चतुर्दशी  "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.v17:hover::after { content: "   २०८१ भदौ १७ सोमवार Sep 02, 2024 भदौ कृष्ण औंसी बुबाको मुख हेर्ने दिन/कुशे औंसी/ मोतीराम भट्ट जन्मजयन्ती/सोमबारे औंसी ( Father's Day/ Kunse Aunshi/ Motiram Bhatta Janma Jayanti/Sombare Aunshi )    "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.v18:hover::after { content: "    २०८१ भदौ १८ मंगलवार Sep 03, 2024 भदौ कृष्ण औंसी "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.v19:hover::after { content: "    २०८१ भदौ १९ बुधवार Sep 04, 2024 भदौ शुक्ल प्रतिपदा गुंला पर्व समाप्ति ( Gunla Parwa Samapti )   "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.v20:hover::after { content: "   २०८१ भदौ २० बिहिवार Sep 05, 2024 भदौ शुक्ल द्वितीया दर खाने दिन/मानव बेचबिखन विरुद्ध राष्ट्रिय दिवस ( Dar Khane Din/National Day against Trafficking in Persons )    "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.v21:hover::after { content: "   २०८१ भदौ २१ शुक्रवार Sep 06, 2024 भदौ शुक्ल तृतिया हरितालिका तीज (महिला कर्मचारीहरूलाई मात्र) ( Haritalika Teej )    "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.v22:hover::after { content: "   २०८१ भदौ २२ शनिवार Sep 07, 2024 भदौ शुक्ल चतुर्थी गणेश चतुर्थी/निजामती सेवा दिवस/राष्ट्रिय धर्मसभा दिवस ( Ganesh Chaturthi/Nijamati Sewa Diwas/Rashtriya Dharmasabha Diwas )    "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.v23:hover::after { content: "     २०८१ भदौ २३ आइतवार Sep 08, 2024 भदौ शुक्ल पञ्चमी ऋषिपञ्चमी व्रत/अन्तर्राष्ट्रिय साक्षरता दिवस / विश्व फिजियोथेरापी दिवस ( Rishi Panchami Vrata/International Literacy Day/ World Physiotherapy Day )  "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.v24:hover::after { content: "    २०८१ भदौ २४ सोमवार Sep 09, 2024 भदौ शुक्ल षष्ठी सूर्य षष्ठी ( Surya Sasti )   "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.v25:hover::after { content: "   २०८१ भदौ २५ मंगलवार Sep 10, 2024 भदौ शुक्ल सप्तमी महालक्ष्मी व्रतआरम्भ/विश्व आत्महत्या रोकथाम दिवस ( Mahalakshmi Vrata Aarambha/World Suicide Prevention Day )    "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.v26:hover::after { content: "   २०८१ भदौ २६ बुधवार Sep 11, 2024 भदौ शुक्ल अष्टमी बुधाष्टमी व्रत/गोरखकाली पूजा/राधा जन्मोत्सव ( Budhastami Vrata/Gorakhkali Puja/Radha Janmotsav )    "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.v27:hover::after { content: "   २०८१ भदौ २७ बिहिवार Sep 12, 2024 भदौ शुक्ल नवमी    "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.v28:hover::after { content: "    २०८१ भदौ २८ शुक्रवार Sep 13, 2024 भदौ शुक्ल दशमी विश्व सेप्सिस दिवस ( World Sepsis Day ) "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.v29:hover::after { content: "    २०८१ भदौ २९ शनिवार Sep 14, 2024 भदौ शुक्ल एकादशी हरिपरिवर्तिनी एकादशी व्रत/राष्ट्रिय बाल दिवस/प्राथमिक उपचार दिवस ( Haripariwartani Ekadashi Vrata/Rashtriya Bal Diwas/World First Aid Day )   "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.v30:hover::after { content: "     २०८१ भदौ ३० आइतवार Sep 15, 2024 भदौ शुक्ल द्वादशी प्रदोष व्रत/वामन द्वादशी व्रत ( Pradosh Vrata/Vaman Dwadashi Vrata )  "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; } td.v31:hover::after { content: "  २०८१ भदौ ३१ सोमवार Sep 16, 2024 भदौ शुक्ल त्रयोदशी विश्व ओजोन तह बचाउ दिवस ( International Day For The Preservation Of The Ozone Layer )     "; position: absolute; background-color: #000; color: #fff; border-radius: 5px; }
+
+
+td.w1:hover::after {
+    content: "       "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.w2:hover::after {
+    content: "       "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.w3:hover::after {
+    content: "       "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.w4:hover::after {
+    content: "       "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.w5:hover::after {
+    content: "       "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.w6:hover::after {
+    content: "       "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.w7:hover::after {
+    content: "       "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.w8:hover::after {
+    content: "       "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.w9:hover::after {
+    content: "       "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.w10:hover::after {
+    content: "       "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.w11:hover::after {
+    content: "       "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.w12:hover::after {
+    content: "       "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.w13:hover::after {
+    content: "       "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.w14:hover::after {
+    content: "       "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.w15:hover::after {
+    content: "       "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.w16:hover::after {
+    content: "       "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.w17:hover::after {
+    content: "       "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.w18:hover::after {
+    content: "       "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.w19:hover::after {
+    content: "       "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.w20:hover::after {
+    content: "       "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.w21:hover::after {
+    content: "       "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.w22:hover::after {
+    content: "       "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.w23:hover::after {
+    content: "       "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.w24:hover::after {
+    content: "       "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.w25:hover::after {
+    content: "       "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.w26:hover::after {
+    content: "       "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.w27:hover::after {
+    content: "       "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.w28:hover::after {
+    content: "       "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.w29:hover::after {
+    content: "       "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.w30:hover::after {
+    content: "       "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.w31:hover::after {
+    content: "       "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+/*
+td.j31:hover::after {
+    content: "       "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.j31:hover::after {
+    content: "       "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.j31:hover::after {
+    content: "       "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.j31:hover::after {
+    content: "       "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.j31:hover::after {
+    content: "       "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.j31:hover::after {
+    content: "       "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.j31:hover::after {
+    content: "       "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.j31:hover::after {
+    content: "       "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.j31:hover::after {
+    content: "       "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.j31:hover::after {
+    content: "       "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.j31:hover::after {
+    content: "       "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.j31:hover::after {
+    content: "       "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.j31:hover::after {
+    content: "       "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.j31:hover::after {
+    content: "       "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}
+td.j31:hover::after {
+    content: "       "; 
+    position: absolute;
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 5px;
+}

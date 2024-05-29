@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bibek Calender</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+           
+           body {
+    background-color: #f3f3f3;
+    font-family: Arial, sans-serif;
+}
+            table {
+                border-collapse: collapse;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            }
+        
+            th, td {
+                border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+            }
+        
+            
+            td:nth-child(7) {
+                color: red;
+                font-weight: bold; 
+            }
+        
+           
+            tr:hover {
+                background-color: #f6f6f6;
+                cursor: pointer; 
+            }
+        
+           
+            th {
+                background-color: #4CAF50;
+    color: white;
+            }
+        
+            
+            th, td {
+                border-bottom: 2px solid #ddd;
+            }
+            .month {
+        display: none;
+        margin-bottom: 20px;
+    }
+    .month.active {
+        display: block;
+    }
+    select {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+        </style>
+        
+    </head>
+    <select id="monthSelect">
+        <option value="a">बैशाख</option>
+        <option value="b">ज्येष्ठ</option>
+        <option value="c">  आषाढ़    </option>
+        <option value="d"> श्रावण </option>
+        <option value="e">भाद्र  </option>
+        <option value="f"> आश्विन </option>
+        <option value="g">कार्तिक  </option>
+        <option value="h">  मंसिर   </option>
+        <option value="i"> पुष </option>
+        <option value="j"> माघ </option>
+        <option value="k">  फागुन</option>
+        <option value="l">चैत  </option>
+        
+    </select>
+    <body>
+  
+        <div class="calender">
+            <div id="a" class="month active">
+                <h4> बैशाख</h4> <table> <tr> <th>SUN</th> <th>MON</th> <th>TUE</th> <th>WED</th> <th>THUR</th> <th>FRI</th> <th style="color:red;">SAT</th> </tr> <tr> <td class="b30">30</td> <td class="b31">31</td> <td></td> <td></td> <td></td> <td></td> <td style="color: red;" class="b1"> 1</td> </tr> <tr> <td class="b2">2</td> <td class="b3" >3</td> <td class="b4">4</td> <td style="color: red;" class="b5">5</td> <td class="b6">6</td> <td class="b7">7</td> <td style="color: red;" class="b8">8</td> </tr>  <tr> <td class="b9">9</td> <td class="b10">10</td> <td class="b11">11</td> <td class="b12">12</td> <td class="b13">13</td> <td class="b14" >14</td> <td style="color: red;" class="b15">15</td> </tr>  <tr> <td class="b16">16</td> <td class="b17">17</td> <td class="b18">18</td> <td style="color: red;" class="b19">19</td> <td class="b20">20</td> <td class="b21">21</td> <td style="color: red;" class="b22">22</td> </tr>  <tr> <td class="b23">23</td> <td class="b24">24</td> <td class="b25">25</td> <td class="b26">26</td> <td class="b27">27</td> <td class="b28">28</td> <td style="color: red;" class="b29">29</td> </tr> </table>
+            </div>
+            <div id="b" class="month"><h4> ज्येष्ठ</h4>
+                <table> <tr> <th>SUN</th> <th>MON</th> <th>TUE</th> <th>WED</th> <th>THUR</th> <th>FRI</th> <th style="color: red;">SAT</th> </tr> <tr> <td></td> <td></td> <td class=" j1">1</td> <td class=" j2">2</td> <td class="  j3           ">3</td> <td class=" j4">4</td> <td  class=" j5"  style="color: red;">5</td> </tr> <tr> <td class=" j6" >6</td> <td class=" j7" >7</td> <td class=" j8" >8</td> <td class=" j9" >9</td> <td class=" j10" style="color: red;">10</td> <td class=" j11" >11</td> <td  class=" j12" style="color: red;">12</td> </tr>  <tr> <td class=" j13" >13</td> <td class=" j14" >14</td> <td class=" j15" style="color: red;">15</td> <td class=" j16" >16</td> <td class=" j17" >17</td> <td class=" j18" >18</td> <td class=" j19"  style="color: red;">19</td> </tr>  <tr> <td class=" j20" >20</td> <td class=" j21" >21</td> <td class=" j22" >22</td> <td class=" j23" >23</td> <td class=" j24" >24</td> <td class=" j25" >25</td> <td  class=" j26" style="color: red;">26</td> </tr>  <tr> <td class=" j27" >27</td> <td class=" j28" >28</td> <td class=" j29" >29</td> <td class=" j30" >30</td> <td class=" j31" >31</td> <td class=" j32" >32</td> <td></td> </tr> </table>
+            </div>
+            <div id="c" class="month"><h4> आषाढ़</h4>
+                <table> <tr> <th>SUN</th> <th>MON</th> <th>TUE</th> <th>WED</th> <th>THUR</th> <th>FRI</th> <th style="color: red;">SAT</th> </tr> <tr> <td class=" a30" >30</td> <td class=" a31" >31</td> <td></td> <td></td> <td></td> <td></td> <td class=" a1">1</td> </tr> <tr> <td class=" a2">2</td> <td class="  a3           ">3</td> <td class=" a4">4</td> <td  class=" a5"  >5</td> <td class=" a6" >6</td> <td class=" a7" >7</td> <td class=" a8" >8</td> </tr>  <tr> <td class=" a9" >9</td> <td class=" a10" >10</td> <td class=" a11" >11</td> <td  class=" a12">12</td> <td class=" a13" >13</td> <td class=" a14" >14</td> <td class=" a15" >15</td> </tr>  <tr> <td class=" a16" >16</td> <td class=" a17" >17</td> <td class=" a18" >18</td> <td class=" a19">19</td> <td class=" a20" >20</td> <td class=" a21" >21</td> <td class=" a22" >22</td> </tr>  <tr> <td class=" a23" >23</td> <td class=" a24" >24</td> <td class=" a25" >25</td> <td  class=" a26">26</td> <td class=" a27" >27</td> <td class=" a28" >28</td> <td class=" a29" >29</td> </tr> </table>
+                </div>
+            <div id="d" class="month"><h4> श्रावण</h4>
+                <table> <tr> <th>SUN</th> <th>MON</th> <th>TUE</th> <th>WED</th> <th>THUR</th> <th>FRI</th> <th style="color: red;">SAT</th> </tr> <tr> <td></td> <td></td> <td class=" s1">1</td> <td class=" s2">2</td> <td class="  s3           ">3</td> <td class=" s4">4</td> <td  class=" s5"  style="color: red;">5</td> </tr> <tr> <td class=" s6" >6</td> <td class=" s7" >7</td> <td class=" s8" >8</td> <td class=" s9" >9</td> <td class=" s10" >10</td> <td class=" s11" >11</td> <td  class=" s12" style="color: red;">12</td> </tr>  <tr> <td class=" s13" >13</td> <td class=" s14" >14</td> <td class=" s15" >15</td> <td class=" s16" >16</td> <td class=" s17" >17</td> <td class=" s18" >18</td> <td class=" s19"  style="color: red;">19</td> </tr>  <tr> <td class=" s20" >20</td> <td class=" s21" >21</td> <td class=" s22" >22</td> <td class=" s23" >23</td> <td class=" s24" >24</td> <td class=" s25" >25</td> <td  class=" s26" style="color: red;">26</td> </tr>  <tr> <td class=" s27" >27</td> <td class=" s28" >28</td> <td class=" s29" >29</td> <td class=" s30" >30</td> <td class=" s31" >31</td> <td class=" s32" >32</td> <td></td> </tr> </table>
+                  </div>
+            <div id="e" class="month"><h4> भाद्र</h4>
+                <table> <tr> <th>SUN</th> <th>MON</th> <th>TUE</th> <th>WED</th> <th>THUR</th> <th>FRI</th> <th style="color: red;">SAT</th> </tr> <tr> <td class=" v30" >30</td> <td class=" v31" >31</td> <td></td> <td></td> <td></td> <td></td> <td class=" v1">1</td> </tr> <tr> <td class=" v2">2</td> <td class="  v3 "    style="color: red;">3</td> <td class=" v4" style="color: red;">4</td> <td  class=" v5" >5</td> <td class=" v6" >6</td> <td class=" v7" >7</td> <td class=" v8" >8</td> </tr>  <tr> <td class=" v9" >9</td> <td class=" v10" style="color: red;">10</td> <td class=" v11" >11</td> <td  class=" v12">12</td> <td class=" v13" >13</td> <td class=" v14" >14</td> <td class=" v15" >15</td> </tr>  <tr> <td class=" v16" >16</td> <td class=" v17" >17</td> <td class=" v18" >18</td> <td class=" v19" >19</td> <td class=" v20" >20</td> <td class=" v21"style="color: red;" >21</td> <td class=" v22" >22</td> </tr>  <tr> <td class=" v23" >23</td> <td class=" v24" >24</td> <td class=" v25" >25</td> <td  class=" v26" >26</td> <td class=" v27" >27</td> <td class=" v28" >28</td> <td class=" v29" >29</td> </tr> </table>
+                </div>
+            <div id="f" class="month"><h4> आश्विन</h4>
+                <table> <tr> <th>SUN</th> <th>MON</th> <th>TUE</th> <th>WED</th> <th>THUR</th> <th>FRI</th> <th style="color: red;">SAT</th> </tr> <tr> <td></td> <td></td> <td class=" w1">1</td> <td class=" w2">2</td> <td class="  w3           ">3</td> <td class=" w4">4</td> <td  class=" w5"  style="color: red;">5</td> </tr> <tr> <td class=" w6" >6</td> <td class=" w7" >7</td> <td class=" w8" >8</td> <td class=" w9" >9</td> <td class=" w10" >10</td> <td class=" w11" >11</td> <td  class=" w12" style="color: red;">12</td> </tr>  <tr> <td class=" w13" >13</td> <td class=" w14" >14</td> <td class=" w15" >15</td> <td class=" w16" >16</td> <td class=" w17" >17</td> <td class=" w18" >18</td> <td class=" w19"  style="color: red;">19</td> </tr>  <tr> <td class=" w20" >20</td> <td class=" w21" >21</td> <td class=" w22" >22</td> <td class=" w23" >23</td> <td class=" w24" >24</td> <td class=" w25" >25</td> <td  class=" w26" style="color: red;">26</td> </tr>  <tr> <td class=" w27" >27</td> <td class=" w28" >28</td> <td class=" w29" >29</td> <td class=" w30" >30</td> <td></td> <td></td> <td></td> </tr> </table>
+                </div>
+                 <div id="g" class="month"><h4> कार्तिक</h4>
+                    <table> <tr> <th>SUN</th> <th>MON</th> <th>TUE</th> <th>WED</th> <th>THUR</th> <th>FRI</th> <th style="color: red;">SAT</th> </tr> <tr> <td></td> <td></td> <td></td> <td></td> <td class=" k1">1</td> <td class=" k2">2</td> <td class="  k3           ">3</td> </tr> <tr> <td class=" k4">4</td> <td  class=" k5"  style="color: red;">5</td> <td class=" k6" >6</td> <td class=" k7" >7</td> <td class=" k8" >8</td> <td class=" k9" >9</td> <td class=" k10" >10</td> </tr>  <tr> <td class=" k11" >11</td> <td  class=" k12" style="color: red;">12</td> <td class=" k13" >13</td> <td class=" k14" >14</td> <td class=" k15" >15</td> <td class=" k16" >16</td> <td class=" k17" >17</td> </tr>  <tr> <td class=" k18" >18</td> <td class=" k19"  style="color: red;">19</td> <td class=" k20" >20</td> <td class=" k21" >21</td> <td class=" k22" >22</td> <td class=" k23" >23</td> <td class=" k24" >24</td> </tr>  <tr> <td class=" k25" >25</td> <td  class=" k26" style="color: red;">26</td> <td class=" k27" >27</td> <td class=" k28" >28</td> <td class=" k29" >29</td> <td class=" k30" >30</td> <td></td> </tr> </table>
+                </div>
+            <div id="h" class="month"><h4> मंसिर</h4>
+                <table> <tr> <th>SUN</th> <th>MON</th> <th>TUE</th> <th>WED</th> <th>THUR</th> <th>FRI</th> <th style="color:red;">SAT</th> </tr> <tr> <td class="m30">30</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td style="color: red;" class="m1"> 1</td> </tr> <tr> <td class="m2">2</td> <td class="m3" >3</td> <td class="m4">4</td> <td style="color: red;" class="m5">5</td> <td class="m6">6</td> <td class="m7">7</td> <td style="color: red;" class="m8">8</td> </tr>  <tr> <td class="m9">9</td> <td class="m10">10</td> <td class="m11">11</td> <td class="m12">12</td> <td class="m13">13</td> <td class="m14" >14</td> <td style="color: red;" class="m15">15</td> </tr>  <tr> <td class="m16">16</td> <td class="m17">17</td> <td class="m18">18</td> <td style="color: red;" class="m19">19</td> <td class="m20">20</td> <td class="m21">21</td> <td style="color: red;" class="m22">22</td> </tr>  <tr> <td class="m23">23</td> <td class="m24">24</td> <td class="m25">25</td> <td class="m26">26</td> <td class="m27">27</td> <td class="m28">28</td> <td style="color: red;" class="m29">29</td> </tr> </table>
+                </div>
+            <div id="i" class="month"><h4> पुष</h4>
+                <table> <tr> <th>SUN</th> <th>MON</th> <th>TUE</th> <th>WED</th> <th>THUR</th> <th>FRI</th> <th style="color:red;">SAT</th> </tr> <tr> <td></td> <td style="color: red;" class="p1"> 1</td> <td class="p2">2</td> <td class="p3" >3</td> <td class="p4">4</td> <td style="color: red;" class="p5">5</td> <td class="p6">6</td> </tr> <tr> <td class="p7">7</td> <td style="color: red;" class="p8">8</td> <td class="p9">9</td> <td class="p10">10</td> <td class="p11">11</td> <td class="p12">12</td> <td class="p13">13</td> </tr>  <tr> <td class="p14" >14</td> <td style="color: red;" class="p15">15</td> <td class="p16">16</td> <td class="p17">17</td> <td class="p18">18</td> <td style="color: red;" class="p19">19</td> <td class="p20">20</td> </tr>  <tr> <td class="p21">21</td> <td style="color: red;" class="p22">22</td> <td class="p23">23</td> <td class="p24">24</td> <td class="p25">25</td> <td class="p26">26</td> <td class="p27">27</td> </tr>  <tr> <td class="p28">28</td> <td style="color: red;" class="p29">29</td> <td></td> <td></td> <td></td> <td></td> <td></td> </tr> </table>
+                </div>
+
+                
+            <div id="j" class="month"><h4> माघ</h4>
+                <table> <tr> <th>SUN</th> <th>MON</th> <th>TUE</th> <th>WED</th> <th>THUR</th> <th>FRI</th> <th style="color: red;">SAT</th> </tr> <tr> <td></td> <td></td> <td class=" g1">1</td> <td class=" g2">2</td> <td class="  g3           ">3</td> <td class=" g4">4</td> <td  class=" g5"  style="color: red;">5</td> </tr> <tr> <td class=" g6" >6</td> <td class=" g7" >7</td> <td class=" g8" >8</td> <td class=" g9" >9</td> <td class=" g10" >10</td> <td class=" g11" >11</td> <td  class=" g12" style="color: red;">12</td> </tr>  <tr> <td class=" g13" >13</td> <td class=" g14" >14</td> <td class=" g15" >15</td> <td class=" g16" >16</td> <td class=" g17" >17</td> <td class=" g18" >18</td> <td class=" g19"  style="color: red;">19</td> </tr>  <tr> <td class=" g20" >20</td> <td class=" g21" >21</td> <td class=" g22" >22</td> <td class=" g23" >23</td> <td class=" g24" >24</td> <td class=" g25" >25</td> <td  class=" g26" style="color: red;">26</td> </tr>  <tr> <td class=" g27" >27</td> <td class=" g28" >28</td> <td class=" g29" >29</td> <td class=" g30" >30</td> <td></td> <td></td> <td></td> </tr> </table>
+                </div>
+            <div id="k" class="month"><h4> फागुन</h4>
+                <table> <tr> <th>SUN</th> <th>MON</th> <th>TUE</th> <th>WED</th> <th>THUR</th> <th>FRI</th> <th style="color: red;">SAT</th> </tr> <tr> <td></td> <td></td> <td></td> <td></td> <td class=" f1">1</td> <td class=" f2">2</td> <td class="  f3           ">3</td> </tr> <tr> <td class=" f4">4</td> <td  class=" f5"  style="color: red;">5</td> <td class=" f6" >6</td> <td class=" f7" >7</td> <td class=" f8" >8</td> <td class=" f9" >9</td> <td class=" f10" >10</td> </tr>  <tr> <td class=" f11" >11</td> <td  class=" f12" style="color: red;">12</td> <td class=" f13" >13</td> <td class=" f14" >14</td> <td class=" f15" >15</td> <td class=" f16" >16</td> <td class=" f17" >17</td> </tr>  <tr> <td class=" f18" >18</td> <td class=" f19"  style="color: red;">19</td> <td class=" f20" >20</td> <td class=" f21" >21</td> <td class=" f22" >22</td> <td class=" f23" >23</td> <td class=" f24" >24</td> </tr>  <tr> <td class=" f25" >25</td> <td  class=" f26" style="color: red;">26</td> <td class=" f27" >27</td> <td class=" f28" >28</td> <td class=" f29" >29</td> <td></td> <td></td> </tr> </table>
+                </div>
+                <div id="l" class="month"><h4> चैत</h4>
+                <table> <tr> <th>SUN</th> <th>MON</th> <th>TUE</th> <th>WED</th> <th>THUR</th> <th>FRI</th> <th style="color: red;">SAT</th> </tr> <tr> <td class=" z31" >31</td> <td></td> <td></td> <td></td> <td></td> <td class=" z1">1</td> <td class=" z2">2</td> </tr> <tr> <td class="  z3           ">3</td> <td class=" z4">4</td> <td  class=" z5"  style="color: red;">5</td> <td class=" z6" >6</td> <td class=" z7" >7</td> <td class=" z8" >8</td> <td class=" z9" >9</td> </tr>  <tr> <td class=" z10" >10</td> <td class=" z11" >11</td> <td  class=" z12" style="color: red;">12</td> <td class=" z13" >13</td> <td class=" z14" >14</td> <td class=" z15" >15</td> <td class=" z16" >16</td> </tr>  <tr> <td class=" z17" >17</td> <td class=" z18" >18</td> <td class=" z19"  style="color: red;">19</td> <td class=" z20" >20</td> <td class=" z21" >21</td> <td class=" z22" >22</td> <td class=" z23" >23</td> </tr>  <tr> <td class=" z24" >24</td> <td class=" z25" >25</td> <td  class=" z26" style="color: red;">26</td> <td class=" z27" >27</td> <td class=" z28" >28</td> <td class=" z29" >29</td> <td class=" z30" >30</td> </tr> </table>
+             </div>
+        </div>
+        <script>
+            document.getElementById('monthSelect').addEventListener('change', function() {
+                document.querySelector('.month.active').classList.remove('active');
+                document.getElementById(this.value).classList.add('active');
+            });
+        </script>
+    </body>
+</html>
